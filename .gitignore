@@ -1,0 +1,30 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local data and generated model artifacts
+data/*
+!data/.gitkeep
+ml-service/artifacts/*
+!ml-service/artifacts/.gitkeep
+
+# JavaScript
+node_modules/
+dist/
+coverage/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

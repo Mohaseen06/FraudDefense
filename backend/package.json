@@ -1,0 +1,19 @@
+{
+  "name": "fraud-defense-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test",
+    "test:e2e": "node tests/e2e-local.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "socket.io": "^4.8.1"
+  }
+}
